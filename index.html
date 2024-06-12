@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site responsivo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body onresize="mudarTamanho()">
+    <nav class="navegação">
+        <div class="container">
+            <div class="nav_logo">
+                <i class="material-symbols-outlined" >settings </i>
+                 <a href="/">Logo site</a>
+            </div>
+         
+            <div class="nav-link">
+                <a href="#" class="item" id="ini">início</a>
+                <a href="#" class="item">contatos</a>
+                <a href="#" class="item">config</a>
+                <a href="#" class="item">imagens</a>
+            </div>
+            <div class="nav-login">
+                <a href="#" class="item" id="sing">sing up</a>
+                <a href="#" id="login" class="item" id="log">login</a>
+            </div>
+            <div class="nav-menu">
+                <i class="material-symbols-outlined" id="menu" onclick="clickMenu()" id="divbarMenu">menu</i>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="seção">
+        <div class="txt">
+            <h2>uma cultura de animes e mangás, teste de site para iniciantes.</h2>
+            <p>graecis decore nominavi bibendum definiebasdicat placerat vestibulum habitant deseruntvoluptatibus ludus evertitur interesset maluissetdelicata quot risus a eam</p>
+            <h3>over flower</h3>
+            
+        </div>
+        <div class="img-thumbnail">
+            <img src="imagens/img.png" alt="">
+        </div>
+    </section>
+<script src="script/script.js"></script>
+</body>
+</html>
