@@ -1,0 +1,161 @@
+
+@charset 'UTF-8';
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 7px;
+    background-color: whitesmoke;
+    
+}
+.nav-link{
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    width: 96%;
+    height: 100vh;
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    
+}
+.nav-link > a{
+    
+    border-top: 1px solid black;
+    padding: 10px;
+}
+.nav-login{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    top: 210px;
+}
+#sing{
+    padding: 10px 15px;
+}
+.nav-login > .item{
+    padding: 0px 7px;
+    display: block;
+   
+}
+.nav_logo{
+    display: flex;
+    font-size: 20px;
+    
+}
+.nav_logo > a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.item{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+#login {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 15px;
+    transition: 1s;
+}
+#login:hover{
+    color: black;
+    background: whitesmoke;
+}
+#menu{
+    font-weight: 600;
+}
+@media screen and (min-width:768px){
+    .container{
+    flex-direction: row;
+    
+    align-items: center;
+    min-width: 270px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 150px;
+}
+    .nav-link {
+   display:inline-flex;
+   flex-direction: row;
+   background-color: whitesmoke;
+   position: relative;
+   width: 10px;
+   height: 10px;
+   top: 0px;
+   right: 140px;
+   bottom: 6px;
+   
+}
+    .nav-link > a{
+        padding: 0px 10px;
+        border: none;
+        
+    }
+    .nav-login a{
+        display: flex;
+    }
+    .nav-login {
+    display: inline-flex;
+    flex-direction: row;
+    position: relative;
+    top: 0px;
+}
+    .nav-menu{
+        display: none;
+    }
+    .seção{
+        display: flex;
+        justify-content: space-between;
+        width: 600px;
+        margin: auto;
+        
+    }
+    
+}
+
+.item2{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+    
+}
+p,h2,h3{
+    padding: 10px;
+}
+h2{
+    color: orange;
+}
+h3{
+    background-color: orange;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
+p{
+    font-weight: 600;
+    
+}
+.seção{
+    padding: 10px;
+    min-width: 270px;
+    text-align: center;
+}
+.txt{
+    width: 270px;
+    margin: auto;
+}
+img{
+    width: 300px;
+    margin: auto;
+    
+}
